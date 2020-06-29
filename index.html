@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+        <title>Coming soon</title>
+        <meta name="google-site-verification" content="PtK8bFuLeaLO0-ZJkPHaJQBPUov1Wq6L-qN77YvMZn8" />
+        <meta charset="utf-8">
+        <link href="./style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>        
+    </head>
+
+    <body>
+      <div class="header">
+        <div class="header-left">
+          <a href="/"><img src="./image/logo2.png"></a>
+        </div>
+        <div class="header-right pc">
+          <ul>
+            <ul class="menu">
+              <li class="menu__single">
+                <a href="./about.html" class="init-bottom">About Competition</a>
+                <ul class="menu__second-level">
+                   <li><a href="./about.html">Message from Founder</a></li>
+                   <li><a href="./about.html">Our Team</a></li>
+                </ul>
+              </li>
+              <li class="menu__single">
+                 <a href="./content.html" class="init-bottom">Content of Competition</a>
+              </li>
+              <li class="menu__single">
+                <a href="./photo.html" class="init-bottom">Photo&Video</a>
+              </li>
+              <li class="menu__single">
+                <a href="./ss.html" class="init-bottom">Scholarship＆Sponsor</a>
+                <ul class="menu__second-level">
+                    <li><a href="./ss.html">Support</a></li>
+                    <li><a href="./ss.html">Winners</a></li>
+                    <li><a href="./ss.html">Media</a></li>
+                </ul>
+              </li>
+              <li class="menu__single">
+                <a href="./contact.html" class="init-bottom">Contact Us</a>
+              </li>
+            </ul>   
+          </ul>
+        </div>   
+        <div class="sp">
+          <nav class="global-nav">
+          <ul class="global-nav__list accordion1">
+            <li class="global-nav__item">
+              <div class="global-nav__item-a"><a href="./about.html"  style="border-bottom:none;">About Competition</a><p class="ac1">  +</p></div>
+              <ul class="inner">
+                <li class="content1-1"><a href="./about.html">Message from Founder</a></li>
+                <li class="content1-2"><a href="./about.html">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="global-nav__item"><a href="./content.html">Content of Competition</a></li>
+            <li class="global-nav__item"><a href="./photo.html">Photo&Video</a></li>
+            <li class="global-nav__item">
+              <div class="global-nav__item-a"><a href="./ss.html"  style="border-bottom:none;">Scholarship＆Sponsor</a><p class="ac2">  +</p></div>
+              <ul class="inner2">
+                <li class="content1-1"><a href="./ss.html">Support</a></li>
+                <li class="content1-2"><a href="./ss.html">Winners</a></li>
+                <li class="content1-2"><a href="./ss.html">Media</a></li>
+              </ul>
+            </li>
+            <li class="global-nav__item"><a href="./contact.html">Contact Us</a></li>
+          </ul>
+          </nav>
+          <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+          <span class="hamburger__line hamburger__line--3"></span>
+          </div>
+          <div class="black-bg" id="js-black-bg"></div>
+        </div>       
+      </div>
+      
+        <div class="top">
+          <ul id="slick01">
+            <li><img src="./image/top1.jpeg"></li>
+            <li><img src="./image/top2.jpeg"></li>
+            <li><img src="./image/top3.jpg"></li>
+          </ul>
+        </div>
+        <div class="main">
+          <div class="content1">
+            <div class="content1-txt">
+              <p>芸術とダンスを愛するアーティストのために、新時代の、世界各国のアートの交流と革新を生み出しました。アーティストが自身のアートを発揮できる場をつくり、より多くの人とアートを愛する人々が共に参加できるようにしました。世界での新型コロナウイルス(COVID-19)の発生後、各国・ダンス基金会・ダンス協会・国際コンクール・ダンススクール・ダンスグループは、団結してダンスアートの発展ために貢献しましょう！そして、世界のダンス事業を、さらに発展させていきましょう。
+                （本コンテストは、サポートを頂いたすべてのダンス基金会、ダンス協会、国際ダンスコンクール、ダンススクール、ダンスチームが共同で開催します。）</p>
+            </div>
+            <div class="content1-image">
+              <img src="./image/flyer_image.png">
+            </div>
+            <h2>About US</h2>
+          </div>
+        </div>
+
+        <div class="footer">
+          <small>Copyright @ 2020 testtest</small>
+        </div>
+
+        <script>
+          $(function(){
+            $('#slick01').slick({
+              autoplay: true,
+              autoplaySpeed: 2000,
+            });
+          });
+        </script>
+        <script>
+          $(function(){
+            $('#slick01').slick({
+              autoplay: true,
+              autoplaySpeed: 2000,
+            });
+          });
+        </script>
+        <script>
+          function toggleNav() {
+          var body = document.body;
+          var hamburger = document.getElementById('js-hamburger');
+          var blackBg = document.getElementById('js-black-bg');
+        
+          hamburger.addEventListener('click', function() {
+            body.classList.toggle('nav-open');
+          });
+          blackBg.addEventListener('click', function() {
+            body.classList.remove('nav-open');
+          });
+          }
+          toggleNav();
+        
+          $(function(){
+        
+          //.accordion1の中のp要素がクリックされたら
+          $('.ac1').click(function(){
+        
+            //クリックされた.accordion1の中のp要素に隣接するul要素が開いたり閉じたりする。
+            $('.inner').slideToggle();
+        
+          });
+          $('.ac2').click(function(){
+        
+            //クリックされた.accordion1の中のp要素に隣接するul要素が開いたり閉じたりする。
+            $('.inner2').slideToggle();
+        
+          });
+          });
+        </script>  
+    </body>
+  </html>
